@@ -1,0 +1,5 @@
+groups:
+  - name: my_rule
+    rules:
+    - record: job:sum_by_job
+      expr: sum by (job) (rate(prometheus_http_requests_total[5m]))
