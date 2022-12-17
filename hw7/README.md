@@ -4,7 +4,7 @@
 
 Установлена в соответствии с инструкцией в задании.
 
-![grafana]()
+![grafana](https://github.com/KatyaGolubeva/SRE/blob/hw7/hw7/grafana.jpeg)
 
 ## Настроить параметры
 
@@ -25,4 +25,4 @@ versions_to_keep = 30
 
 Построен график значений метрики prometheus_tsdb_head_series за последний час с помощью Prometheus:
 
-![prometheus]()
+![prometheus](https://github.com/KatyaGolubeva/SRE/blob/hw7/hw7/prometheus.jpeg)
