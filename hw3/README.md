@@ -20,6 +20,20 @@ Node-exporter представляет собой систему коллект�
 - sockstat  - экспозиция различной статистики из /proc/net/sockstat
 - time  - экспозиция системного времени и многие другие.
 
+`cat << EOF > /lib/systemd/system/node_exporter.service
+[Unit]
+Description=Node-Exporter service
+
+[Service]
+User=prometheus
+Group=prometheus
+ExecStart=/usr/local/bin/node_exporter --web.listen-address=0.0.0.0:9100 --collector.textfile.directory=/opt/prometheus_exporters/textfile --collector.disable-defaults  --collector.cpu --collector.diskstats --collector.filesystem --collector.loadavg --collector.meminfo --collector.netstat --collector.sockstat --collector.time --collector.textfile
+
+[Install]
+WantedBy=multi-user.target
+EOF`
+
+
 ![img3](https://github.com/KatyaGolubeva/SRE/blob/hw3/hw3/pictures/4.jpeg)
 
 ## Сделать простой скрипт для Textfile-collector по любой метрике, которая отсустввует в node-exporter.
