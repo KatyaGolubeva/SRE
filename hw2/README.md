@@ -8,14 +8,16 @@
 
 Установлено согласно инструкции в задании.
 
-[img1](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/0.jpeg)
+![img0](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/0.jpeg)
 
 ## показать использование PromQL
 
-1. 
+1. ![img1](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/1.jpeg)
 
-2. 
+2. ![img2](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/2.jpeg)
 
-3. 
+3. ![img3](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/3.jpeg)
 
 ## записать recording rule для какого-либо сложного вычисления
+
+![rules](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/rules.jpeg)
