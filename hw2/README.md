@@ -20,4 +20,6 @@
 
 ## записать recording rule для какого-либо сложного вычисления
 
+- Запишем recording rule для последнего запроса в rules.yml и перезапустим сервис.
+
 ![rules](https://github.com/KatyaGolubeva/SRE/blob/hw2/hw2/pictures/rules.jpeg)
